@@ -1,0 +1,137 @@
+#app {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#personagens, #acoes, #logs, #iniciar, #resultado {
+    display: flex;
+    box-shadow: 0px 2px 5px lightgray;
+}
+
+#personagens { 
+    justify-content: space-around;
+    padding: 40px 0px 20px;
+}
+
+.personagem {
+    text-align: center;
+    margin: 0;
+}
+
+.barra-externa {
+    border: 1px solid black;
+    height: 25px;
+    margin: 15px 0px 10px;
+    overflow: hidden;
+    width: 500px;
+}
+
+.barra-interna {
+    height: 25px;
+    width: 100%;
+    background-color: green;
+}
+
+.progresso {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#iniciar {
+    font-size: 1.1em;
+    margin: 30px 0;
+    padding: 20px;
+    justify-content: center;
+}
+
+#iniciar span {
+    background-color: #4654A9;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#iniciar span:active {
+    border: 3px solid #AEB1D8;
+}
+
+#acoes {
+    align-items: center;
+    font-size: 1.1em;
+    justify-content: center;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.acao {
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 5px;
+    border: 3px solid #AEB1D8
+}
+
+.acao:nth-child(1) {
+    background-color: #dc3545;
+}
+
+.acao:nth-child(2) {
+    background-color: #ffc107;
+    color: black;
+}
+
+.acao:nth-child(3) {
+    background-color: #28a745;
+}
+
+.acao:nth-child(4) {
+    background-color: #6c757d;
+    color: black;
+}
+
+#resultado {
+    align-items: center;
+    font-size: 1.1em;
+    justify-content: center;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.derrota {
+    color: red;
+}
+
+.vitoria {
+    color: green;
+}
+
+.empate {
+    color: purple;
+}
+
+#logs {
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.log {
+    border-radius: 5px;
+    color: white;
+    margin: 4px 0;
+    padding: 5px;
+    text-align: center;
+    width: 100%
+}
+
+.jogador-log {
+    background-color: #E37778;
+}
+
+.monstro-log {
+    background-color: #848DC7;
+}
